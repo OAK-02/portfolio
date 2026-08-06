@@ -2,6 +2,7 @@
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
 @import "@fontsource-variable/jetbrains-mono";
+@plugin "@tailwindcss/typography";
 
 @custom-variant dark (&:is(.dark *));
 @source "../../../apps/**/*.{ts,tsx}";
@@ -121,6 +122,11 @@
 }
 
 @layer base {
+  html {
+    /* Tailwind's type + spacing scale is rem-based, so bumping the root
+       size scales everything proportionally instead of just text. */
+    font-size: 120%;
+  }
   * {
     @apply border-border outline-ring/50;
     }

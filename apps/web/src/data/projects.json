@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Personal Portfolio Website",
+    "description": "This site — a monorepo built with React, Vite, and shadcn/ui, deployed statically to Cloudflare Pages.",
+    "githubUrl": "https://github.com/OAK-02/personal-portfolio-website",
+    "completed": false,
+    "tags": ["React", "TypeScript", "Vite"]
+  },
+  {
+    "title": "Placeholder: Distributed Task Queue",
+    "description": "Swap this out with a real project — a Redis-backed job queue with worker pools and retry/backoff handling.",
+    "githubUrl": "https://github.com/OAK-02",
+    "completed": true,
+    "tags": ["Python", "Redis", "Docker"]
+  },
+  {
+    "title": "Placeholder: RAG Chat Assistant",
+    "description": "Swap this out with a real project — a retrieval-augmented chat service over a local document store.",
+    "githubUrl": "https://github.com/OAK-02",
+    "completed": false,
+    "tags": ["Python", "PyTorch", "NLTK"]
+  },
+  {
+    "title": "Placeholder: Realtime Log Aggregator",
+    "description": "Swap this out with a real project — streams and indexes service logs with a simple query API on top.",
+    "githubUrl": "https://github.com/OAK-02",
+    "completed": true,
+    "tags": ["Java", "SpringBoot", "SQL"]
+  },
+  {
+    "title": "Placeholder: Auth Microservice",
+    "description": "Swap this out with a real project — JWT-based auth and session management behind a Django REST API.",
+    "githubUrl": "https://github.com/OAK-02",
+    "completed": true,
+    "tags": ["Python", "Django", "SQL"]
+  },
+  {
+    "title": "Placeholder: CLI Dotfiles Manager",
+    "description": "Swap this out with a real project — a shell-scripted tool for syncing and versioning dotfiles across machines.",
+    "githubUrl": "https://github.com/OAK-02",
+    "completed": false,
+    "tags": ["Shell", "Node.js"]
+  }
+]

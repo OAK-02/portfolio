@@ -1,19 +1,26 @@
-import { Button } from "@workspace/ui/components/button"
+import { BrowserRouter, Route, Routes } from "react-router-dom"
 
-export function App() {
+import { Layout } from "@/components/Layout"
+import Blog from "@/pages/Blog"
+import BlogPost from "@/pages/BlogPost"
+import Home from "@/pages/Home"
+import NotFound from "@/pages/NotFound"
+import Projects from "@/pages/Projects"
+
+function App() {
   return (
-    <div className="flex min-h-svh p-6">
-      <div className="flex max-w-md min-w-0 flex-col gap-4 text-sm leading-loose">
-        <div>
-          <h1 className="font-medium">Project ready!</h1>
-          <p>You may now add components and start building.</p>
-          <p>We&apos;ve already added the button component for you.</p>
-          <Button className="mt-2">Button</Button>
-        </div>
-        <div className="text-muted-foreground font-mono text-xs">
-          (Press <kbd>d</kbd> to toggle dark mode)
-        </div>
-      </div>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="projects" element={<Projects />} />
+          <Route path="blog" element={<Blog />} />
+          <Route path="blog/:slug" element={<BlogPost />} />
+          <Route path="*" element={<NotFound />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   )
 }
+
+export default App

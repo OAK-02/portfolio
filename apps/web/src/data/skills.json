@@ -1,0 +1,32 @@
+[
+  {
+    "category": "Languages",
+    "skills": [
+      { "name": "Python", "level": 85 },
+      { "name": "Java", "level": 75 },
+      { "name": "TypeScript", "level": 65 },
+      { "name": "SQL", "level": 70 },
+      { "name": "Shell", "level": 60 }
+    ]
+  },
+  {
+    "category": "Frameworks & Libraries",
+    "skills": [
+      { "name": "PyTorch", "level": 60 },
+      { "name": "scikit-learn", "level": 65 },
+      { "name": "NLTK", "level": 55 },
+      { "name": "Django", "level": 60 },
+      { "name": "Spring Boot", "level": 55 },
+      { "name": "React", "level": 65 }
+    ]
+  },
+  {
+    "category": "Tools",
+    "skills": [
+      { "name": "Git", "level": 80 },
+      { "name": "Docker", "level": 55 },
+      { "name": "Linux", "level": 70 },
+      { "name": "Node.js", "level": 60 }
+    ]
+  }
+]
