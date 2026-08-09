@@ -13,10 +13,10 @@ export function Layout() {
   return (
     <div className="flex min-h-screen flex-col">
       <Nav />
-      <main className="w-full flex-1 px-8 py-10 sm:px-16 lg:px-28">
+      <main className="w-full flex-1 px-8 py-10 pb-28 sm:px-16 lg:px-28">
         <Outlet />
       </main>
-      <footer className="border-t border-border px-8 py-6 sm:px-16 lg:px-28">
+      <footer className="fixed inset-x-0 bottom-0 z-40 border-t border-border bg-background/80 px-8 py-6 backdrop-blur sm:px-16 lg:px-28">
         <div className="flex justify-center">
           <ul className="flex flex-wrap items-center justify-center gap-6 text-muted-foreground">
             <li>

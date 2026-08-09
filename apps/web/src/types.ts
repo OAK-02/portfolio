@@ -17,6 +17,7 @@ export interface SiteConfig {
   name: string
   role: string
   bio: string
+  tagline: string
   email: string
   github: string
   linkedin: string

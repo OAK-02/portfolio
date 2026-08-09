@@ -1,10 +1,25 @@
 {
   "name": "Omar Khursheed",
   "role": "Software Engineer",
-  "bio": "Software engineer interested in reliable backend systems and AI products which people love. This site is where I showcase what I'm building and write about what I'm learning.",
+  "bio": "Software engineer with an interest in builiding scalable, relaible backend and AI systems.",
+  "tagline": "Think of this as my repo for showcasing projects and sharing a few reflections along the way.",
   "email": "omarkhursheed02@gmail.com",
   "github": "https://github.com/OAK-02",
   "linkedin": "https://linkedin.com/in/your-username",
   "resumeUrl": "/resume.pdf",
-  "skills": ["Python", "Java", "Shell Scripting", "SQL", "TypeScript", "React", "Node.js", "Django", "SpringBoot", "PyTorch", "Numpy", "scikit-learn", "NLTK"]
+  "skills": [
+    "Python",
+    "Java",
+    "Shell Scripting",
+    "SQL",
+    "TypeScript",
+    "React",
+    "Node.js",
+    "Django",
+    "SpringBoot",
+    "PyTorch",
+    "Numpy",
+    "scikit-learn",
+    "NLTK"
+  ]
 }
