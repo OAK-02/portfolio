@@ -3,11 +3,8 @@ import { ArrowSquareOut } from "@phosphor-icons/react"
 import { Card } from "@workspace/ui/components/card"
 import { cn } from "@workspace/ui/lib/utils"
 
-import {
-  DemoButton,
-  PLACEHOLDER_IMAGE,
-  STATUS_STYLES,
-} from "@/components/ProjectCard"
+import { DemoButton } from "@/components/ProjectCard"
+import { PLACEHOLDER_IMAGE, STATUS_STYLES } from "@/lib/project-display"
 import type { Project } from "@/types"
 
 // The Projects page's one-per-row layout: image on one side, contribution

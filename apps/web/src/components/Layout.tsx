@@ -1,10 +1,5 @@
 import { Outlet } from "react-router-dom"
-import {
-  DownloadSimple,
-  EnvelopeSimple,
-  GithubLogo,
-  LinkedinLogo,
-} from "@phosphor-icons/react"
+import { EnvelopeSimple, GithubLogo, LinkedinLogo } from "@phosphor-icons/react"
 
 import { MailLink } from "@/components/MailLink"
 import { Nav } from "@/components/Nav"
@@ -20,7 +15,7 @@ export function Layout() {
       <footer className="fixed inset-x-0 bottom-0 z-40 border-t border-border bg-background/80 px-8 py-3 backdrop-blur sm:px-16 lg:px-28">
         <div className="flex justify-center">
           <ul className="flex flex-wrap items-center justify-center gap-6 text-muted-foreground">
-            <li>
+            {/* <li>
               <a
                 href={site.resumeUrl}
                 download
@@ -30,7 +25,7 @@ export function Layout() {
                 <DownloadSimple className="size-5" />
                 Resume
               </a>
-            </li>
+            </li> */}
             <li>
               <a
                 href={site.github}

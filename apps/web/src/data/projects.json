@@ -4,7 +4,6 @@
     "description": "A shared mini PC turned homelab to host multiple programs serving mutiple cuncurrent users.",
     "githubUrl": "https://github.com/OAK-02/homelab/tree/main",
     "status": "ongoing",
-    "demoUrl": "https://www.youtube.com/watch?v=rWHZsX3i5GE&t=2182s",
     "image": "/images/homelab.png",
     "tags": ["Shell scripting", "Linux", "Docker", "NAS", "VPN", "TLS/SSL", "HTTP/HTTPS", "WebSockets", "MCP", "Hermes Agent"],
     "highlights": [
