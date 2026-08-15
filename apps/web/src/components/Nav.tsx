@@ -10,7 +10,7 @@ import { site } from "@/lib/site"
 // used elsewhere on the site, so the nav reads as part of the same
 // filesystem metaphor rather than a generic link bar.
 const links = [
-  { to: "/", label: "~", end: true },
+  { to: "/", label: "~/", end: true },
   { to: "/projects", label: "~/projects" },
   // { to: "/blog", label: "~/blog" },
 ]
