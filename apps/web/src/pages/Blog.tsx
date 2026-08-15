@@ -13,11 +13,13 @@ export default function Blog() {
           <li key={post.slug}>
             <Link
               to={`/blog/${post.slug}`}
-              className="font-heading text-sm font-medium"
+              className="font-heading text-sm font-medium transition-colors hover:text-signal"
             >
               {post.title}
             </Link>
-            <p className="text-xs text-muted-foreground">{post.date}</p>
+            <p className="font-heading text-xs text-muted-foreground">
+              {post.date}
+            </p>
             <p className="text-muted-foreground">{post.description}</p>
           </li>
         ))}

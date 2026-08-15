@@ -1,32 +1,73 @@
 [
   {
-    "category": "Languages",
-    "skills": [
-      { "name": "Python", "level": 85 },
-      { "name": "Java", "level": 75 },
-      { "name": "TypeScript", "level": 65 },
-      { "name": "SQL", "level": 70 },
-      { "name": "Shell", "level": 60 }
+    "category": "languages",
+    "title": "Languages",
+    "skills": ["Python", "Java", "TypeScript", "SQL", "Shell Scripting"]
+  },
+  {
+    "category": "frameworks",
+    "title": "Frameworks",
+    "skills": ["Django", "Spring Boot", "React", "React-Native"]
+  },
+  {
+    "category": "dev-tools",
+    "title": "Dev Tools",
+    "skills": ["Git", "Docker", "Claude Code", "Terraform", "AWS Cloud", "GitHub CI/CD"]
+  },
+  {
+    "category": "backend",
+    "title": "Backend & Database Design",
+    "description": "Design and developed APIs, data stores, and the cloud infrastructure that keeps them running.",
+    "specialized": true,
+    "subgroups": [
+      {
+        "label": "concepts",
+        "skills": [
+          "API Design",
+          "System Design",
+          "Microservices Architecture",
+          "Distributed Systems",
+          "Cloud Architecture",
+          "Test-driven development",
+          "Shell Scripts"
+        ]
+      },
+      {
+        "label": "apis",
+        "skills": ["REST APIs", "gRPC"]
+      },
+      {
+        "label": "databases",
+        "skills": ["PostgreSQL", "MongoDB", "Redis"]
+      },
+      {
+        "label": "networking",
+        "skills": ["TLS/SSL", "DNS", "TCP/IP", "Load Balancing (nginx)", "Reverse Proxy", "VPN (OpenVPN)", "Docker Networking", "Wireshark", "SMB/NFS NAS"]
+      }
     ]
   },
   {
-    "category": "Frameworks & Libraries",
-    "skills": [
-      { "name": "PyTorch", "level": 60 },
-      { "name": "scikit-learn", "level": 65 },
-      { "name": "NLTK", "level": 55 },
-      { "name": "Django", "level": 60 },
-      { "name": "Spring Boot", "level": 55 },
-      { "name": "React", "level": 65 }
-    ]
-  },
-  {
-    "category": "Tools",
-    "skills": [
-      { "name": "Git", "level": 80 },
-      { "name": "Docker", "level": 55 },
-      { "name": "Linux", "level": 70 },
-      { "name": "Node.js", "level": 60 }
+    "category": "ai-ml",
+    "title": "AI/ML Concepts & Libraries",
+    "description": "Hands on experience across Deep Learning domains such as computer vision and NLP and core Machine Learning concepts using industry standard libraries.",
+    "specialized": true,
+    "subgroups": [
+      {
+        "label": "concepts",
+        "skills": ["Computer Vision", "NLP", "Kernel Methods", "Decision Trees", "Linear Regression", "Logistic Regression"]
+      },
+      {
+        "label": "NLP",
+        "skills": ["NLTK", "spaCy", "HuggingFace", "Hermes Agent", "LangChain"]
+      },
+      {
+        "label": "computer-vision",
+        "skills": ["OpenCV", "PyTorch", "NVIDIA CUDA-X", "YOLO"]
+      },
+      {
+        "label": "machine-learning",
+        "skills": ["Scikit-learn", "TensorFlow", "NumPy", "Pandas", "Matplotlib"]
+      }
     ]
   }
 ]

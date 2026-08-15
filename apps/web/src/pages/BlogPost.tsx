@@ -18,7 +18,9 @@ export default function BlogPost() {
     <article className="space-y-6">
       <header className="space-y-1">
         <h1 className="font-heading text-2xl font-medium">{meta.title}</h1>
-        <p className="text-xs text-muted-foreground">{meta.date}</p>
+        <p className="font-heading text-xs text-muted-foreground">
+          {meta.date}
+        </p>
       </header>
       <div className="prose prose-neutral dark:prose-invert max-w-none">
         <ReactMarkdown

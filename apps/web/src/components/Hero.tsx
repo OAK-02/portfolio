@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"
 import portraitPhoto from "@/assets/my_image.jpeg"
 
+import { prefersReducedMotion } from "@/lib/motion"
 import { site } from "@/lib/site"
 
 const COMMAND = "whoami"
@@ -18,15 +19,8 @@ const INTRO_PLAYED_KEY = "hero-intro-played"
 
 function hasPlayedIntro() {
   return (
-    typeof window !== "undefined" && false
-    // window.sessionStorage.getItem(INTRO_PLAYED_KEY) === "true"
-  )
-}
-
-function prefersReducedMotion() {
-  return (
     typeof window !== "undefined" &&
-    window.matchMedia("(prefers-reduced-motion: reduce)").matches
+    window.sessionStorage.getItem(INTRO_PLAYED_KEY) === "true"
   )
 }
 
@@ -106,7 +100,7 @@ export default function Hero() {
     }
   }, [])
 
-  const cursor = <span className="ml-0.5 animate-blink text-primary">▌</span>
+  const cursor = <span className="animate-blink ml-0.5 text-signal">▌</span>
 
   return (
     <section className="space-y-8 sm:space-y-10">

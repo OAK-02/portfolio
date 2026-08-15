@@ -1,44 +1,61 @@
 [
   {
-    "title": "Personal Portfolio Website",
-    "description": "This site — a monorepo built with React, Vite, and shadcn/ui, deployed statically to Cloudflare Pages.",
-    "githubUrl": "https://github.com/OAK-02/personal-portfolio-website",
-    "completed": false,
-    "tags": ["React", "TypeScript", "Vite"]
+    "title": "Homelab Server",
+    "description": "A shared mini PC turned homelab to host multiple programs serving mutiple cuncurrent users.",
+    "githubUrl": "https://github.com/OAK-02/homelab/tree/main",
+    "status": "ongoing",
+    "demoUrl": "https://www.youtube.com/watch?v=rWHZsX3i5GE&t=2182s",
+    "image": "/images/homelab.png",
+    "tags": ["Shell scripting", "Linux", "Docker", "NAS", "VPN", "TLS/SSL", "HTTP/HTTPS", "WebSockets", "MCP", "Hermes Agent"],
+    "highlights": [
+      "Provisioned and self-hosted 3+ concurrent programs running through Docker on a Linux OS mini-PC.",
+      "Streamed media to 4 concurrent clients by hosting an open-source media server backed by NAS storage.",
+      "Eliminated server's attack surface from 3+ open ports to 0 via a VPN gateway, validated with open-source scanning tools."
+    ]
   },
   {
-    "title": "Placeholder: Distributed Task Queue",
-    "description": "Swap this out with a real project — a Redis-backed job queue with worker pools and retry/backoff handling.",
-    "githubUrl": "https://github.com/OAK-02",
-    "completed": true,
-    "tags": ["Python", "Redis", "Docker"]
+    "title": "Fake Image Generator",
+    "description": "A fake image generator using Generartive Adversarial Networks. From random noise pixels to something that looks like a face...thanks to my limited 1660Ti GPU :).",
+    "githubUrl": "https://github.com/Omar-and-Abhinav/GAN-celeb_a",
+    "status": "completed",
+    "image": "/images/GAN_Model_summary.png",
+    "tags": ["Python", "TensorFlow", "Keras", "openCV", "NumPy", "NVIDIA CUDA-X"],
+    "highlights": [
+      "Developed a Generative Adversarial Network (GAN) in Python with TensorFlow to generate fake images.",
+      "Processed 10k+ image files through a custom Data Loader module built in Python with OpenCV.",
+      "Improved FID score by 25% through introducing a progressive-growing training technique avaoiding model collapse."
+    ]
   },
   {
-    "title": "Placeholder: RAG Chat Assistant",
-    "description": "Swap this out with a real project — a retrieval-augmented chat service over a local document store.",
-    "githubUrl": "https://github.com/OAK-02",
-    "completed": false,
-    "tags": ["Python", "PyTorch", "NLTK"]
+    "title": "UNSW Timetable Planner",
+    "description": "Developed a class mangement web app, as member of UNSW Development Society, to be in sync with UNSW class offerings. Glad to know its being used by 200+ students actively to plan ther studies for the term.",
+    "githubUrl": "https://github.com/devsoc-unsw/notangles",
+    "status": "completed",
+    "image": "/images/Notangles.png",
+    "tags": ["Python", "Flask", "REST APIs", "Web Scraping (Beautiful Soup)", "Linear Programming", "Docker", "MongoDB", "Typescript", "React"],
+    "highlights": [
+      "Engineered data storage and retrieval for 200+ students by building REST API endpoints in Python with Flask.",
+      "Delivered preference-optimised calendars to students by formalizing Linear Programming algorithms in Python.",
+      "Integrated E2E testing and observability packages in React with Typescript, increasing test coverage by 40%."
+    ]
   },
   {
-    "title": "Placeholder: Realtime Log Aggregator",
-    "description": "Swap this out with a real project — streams and indexes service logs with a simple query API on top.",
-    "githubUrl": "https://github.com/OAK-02",
-    "completed": true,
-    "tags": ["Java", "SpringBoot", "SQL"]
-  },
-  {
-    "title": "Placeholder: Auth Microservice",
-    "description": "Swap this out with a real project — JWT-based auth and session management behind a Django REST API.",
-    "githubUrl": "https://github.com/OAK-02",
-    "completed": true,
-    "tags": ["Python", "Django", "SQL"]
-  },
-  {
-    "title": "Placeholder: CLI Dotfiles Manager",
-    "description": "Swap this out with a real project — a shell-scripted tool for syncing and versioning dotfiles across machines.",
-    "githubUrl": "https://github.com/OAK-02",
-    "completed": false,
-    "tags": ["Shell", "Node.js"]
+    "title": "COVID-19 Tracker App",
+    "description": "A React Native mobile app for monitoring global COVID-19 case data. Can search for countries, save them to a personal watchlist, and view historical trends. Powered by JHU dataset.",
+    "githubUrl": "https://github.com/Raynell-and-Omar-app/covidApp",
+    "status": "completed",
+    "image": "/images/covid_tracker.png",
+    "tags": [
+      "React Native",
+      "Expo",
+      "JavaScript",
+      "AsyncStorage",
+      "Data Visualization"
+    ],
+    "highlights": [
+      "Tracked daily COVID-19 data across 90+ countries through a cross-platform React Native mobile app.",
+      "Built interactive components and charts to make the trends easy to spot, backed by local storage.",
+      "Improved user experience by implementing data caching for a smoother, more responsive interface."
+    ]
   }
 ]

@@ -1,0 +1,26 @@
+[
+  {
+    "company": "Bahrix Pty Ltd",
+    "role": "Software Engineering Intern",
+    "period": "July 2025 - February 2026",
+    "location": "Sydney, Australia",
+    "bullets": [
+      "Accelerated clients' document search by 20% by architecting a RAG pipeline with vector-embedding retrieval over 1k+ unstructured reports.",
+      "Improved top-10 retrieval accuracy by 25% through neural re-ranking and ensemble methods.",
+      "Strengthened pipeline reliability by preventing stale datapoints, using bi-weekly vector database sync scripts in Python.",
+      "Enabled multi-tenant platform growth by designing scalable PostgreSQL schemas and data features.",
+      "Refactored 10k+ lines within a large codebase into reusable, modular components using OOP design principles and patterns.",
+      "Automated business workflows by building event-driven integrations connecting SaaS platform to third-party systems in React."
+    ]
+  },
+  {
+    "company": "EY",
+    "role": "IT Consultant Intern",
+    "period": "January 2023 - February 2023",
+    "location": "Kuwait City, Kuwait",
+    "bullets": [
+      "Achieved 4.5/5 stakeholder satisfaction by evaluating third-party software products and documenting tailored recommendations for client pitch decks.",
+      "Enforced client safety and security policies by maintaining IAM access controls (RBAC/least privilege)."
+    ]
+  }
+]
