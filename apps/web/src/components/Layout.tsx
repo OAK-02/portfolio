@@ -26,13 +26,17 @@ export function Layout() {
                 Resume
               </a>
             </li> */}
+            {/* p-2 -m-2 on each link grows its tap target to a thumb-friendly
+                size without shifting the visible icon or the gap between
+                them — the padding pads the tappable area, the matching
+                negative margin cancels it back out of the layout. */}
             <li>
               <a
                 href={site.github}
                 target="_blank"
                 rel="noreferrer"
                 aria-label="GitHub"
-                className="inline-flex transition-colors hover:text-signal"
+                className="-m-2 inline-flex p-2 transition-colors hover:text-signal"
               >
                 <GithubLogo className="size-5" />
               </a>
@@ -43,7 +47,7 @@ export function Layout() {
                 target="_blank"
                 rel="noreferrer"
                 aria-label="LinkedIn"
-                className="inline-flex transition-colors hover:text-signal"
+                className="-m-2 inline-flex p-2 transition-colors hover:text-signal"
               >
                 <LinkedinLogo className="size-5" />
               </a>
@@ -53,7 +57,7 @@ export function Layout() {
                 user={site.emailUser}
                 domain={site.emailDomain}
                 aria-label="Email"
-                className="inline-flex transition-colors hover:text-signal"
+                className="-m-2 inline-flex p-2 transition-colors hover:text-signal"
               >
                 <EnvelopeSimple className="size-5" />
               </MailLink>

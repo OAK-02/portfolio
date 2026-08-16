@@ -21,13 +21,6 @@ export default function Home() {
       </section>
 
       <section className="space-y-4">
-        <h2 className="font-heading text-sm font-medium tracking-wide text-muted-foreground uppercase">
-          ./experience
-        </h2>
-        <Experience />
-      </section>
-
-      <section className="space-y-4">
         <div className="flex items-baseline justify-between">
           <h2 className="font-heading text-sm font-medium tracking-wide text-muted-foreground uppercase">
             ./projects
@@ -40,6 +33,13 @@ export default function Home() {
           </Link>
         </div>
         <ProjectCarousel projects={projects as Project[]} />
+      </section>
+
+      <section className="space-y-4">
+        <h2 className="font-heading text-sm font-medium tracking-wide text-muted-foreground uppercase">
+          ./experience
+        </h2>
+        <Experience />
       </section>
 
       <section className="space-y-4">

@@ -77,7 +77,14 @@ export function ProjectCarousel({ projects }: { projects: Project[] }) {
       >
         <div ref={trackRef} className="flex gap-8">
           {projects.map((project) => (
-            <div key={project.title} className="w-80 shrink-0 sm:w-96">
+            <div
+              key={project.title}
+              // Capped at 85vw on phones (not a flat w-80) so the card
+              // always fits inside even a ~340px-wide viewport with a
+              // sliver of the next card peeking in as a scroll affordance,
+              // instead of a fixed 320px card overflowing past the edge.
+              className="w-[85vw] max-w-80 shrink-0 sm:w-96"
+            >
               <ProjectCard project={project} />
             </div>
           ))}
