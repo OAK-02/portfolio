@@ -16,8 +16,8 @@
   },
   {
     "category": "backend",
-    "title": "Backend & Database Design",
-    "description": "Design and developed APIs, data stores, and the cloud infrastructure that keeps them running.",
+    "title": "Backend & System Design",
+    "description": "Designed and developed APIs, data stores, and the cloud infrastructure that keeps them running.",
     "specialized": true,
     "subgroups": [
       {
